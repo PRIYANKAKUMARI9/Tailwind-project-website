@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Navigation making</title>
+</head>
+<body class="bg-gray-950">
+    <nav class="w-full h-9 bg-gray-100 mb-7 flex justify-between p-7 items-center">
+        
+            <div class="text-5xl bg-yellow-900 px-4  rounded-sm text-white font-bold">Vi<span class="bg-yellow-300 text-xl -mt-19 p-2 rounded-lg text-red-950">vek</span></div>
+            <ul class="md:flex font-semibold hidden">
+                <li class="mx-[20px]">Home</li>
+                <li class="mx-[20px]">About</li>
+                <li class="mx-[20px]">Content</li>
+                <li class="mx-[20px]">Doc</li>
+            </ul>
+            <div class="hidden md:block px-2  py-2 bg-gray-800 text-white rounded-sm font-bold cursor-pointer">Login/Signup</div>
+        <div class="md:hidden text-3xl text-white">
+            <a href="#" >&#8801</a>
+        </div>
+    </nav>
+    <!--Nav bar end here...-->
+
+    <!--Header start here...-->
+    <header class="">
+        <img class="w-full h-[500px] hidden md:block " src="https://www.lordsayurveda.com/wp-content/uploads/2023/06/ayurveda.jpg" alt="">
+        <img class="w-full h-[500px] md:hidden" src="https://anthroholic.com/wp-content/uploads/2023/07/What-is-Ayurveda.webp" alt="">
+    </header>
+    <!--Header end here...-->
+
+    <!--Our item section.. -->
+    <div class="h-auto w-100 flex flex-wrap flex-col p-10 items-center">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-green-400 font-bold text-xl md:text-4xl text-center mb-10"><span class="text-orange-400 border-b-4 border-orange-500 ">Vivek Ayurveda</span> items here..</p>
+            <div class="w-40 h-1 bg-zinc-300 rounded-lg"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly mt-12">
+            <div class="bg-white h-[300px] w-[200px] rounded-lg ">
+                <img class="w-[100px] ml-12 mb-2" src="https://static.vecteezy.com/system/resources/previews/019/813/203/non_2x/modern-medical-and-health-care-center-ayurvedic-logo-design-illustration-free-vector.jpg" alt="">
+                <p class="text-orange-700 font-bold text-xl pl-2 mb-4">Health</p>
+                <p class="pl-2 pr-2">Vivek of Ayush provides healthcare facility across the country by using six conventional treatment procedure.</p>
+            </div>
+            <div class="bg-white h-[300px] w-[200px] rounded-lg ">
+                <img class="w-[100px] ml-12 mb-2" src="data:image/jpeg;base64,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" alt="">
+                <p class="text-orange-700 font-bold text-xl pl-2 mb-4">Meditation</p>
+                <p class="pl-2 pr-2">Vivek of Ayush provides healthcare facility across the country by using six conventional treatment procedure.</p>
+            </div>
+            <div class="bg-white h-[300px] w-[200px] rounded-lg ">
+                <img class="w-[100px] ml-12 mb-2" src="https://assets-global.website-files.com/5f16d0d9bc7e8e5a330bcced/5f5b7ae39bd6987945d422bd_Ayush%20Premium%20(1).png" alt="">
+                <p class="text-orange-700 font-bold text-xl pl-2 mb-4">Quality & Standard</p>
+                <p class="pl-2 pr-2">Vivek of Ayush provides healthcare facility across the country by using six conventional treatment procedure.</p>
+            </div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly mt-8">
+            <div class="bg-green-300 h-[300px] w-[200px] rounded-lg ">
+                <img class="w-[100px] ml-12 mb-2 mt-6" src="https://www.shutterstock.com/image-vector/spa-resort-beauty-business-background-600nw-387064495.jpg" alt="">
+                <p class="text-orange-700 font-bold text-xl pl-2 mb-4">Spaa</p>
+                <p class="pl-2 pr-2">Vivek of Ayush provides healthcare facility across the country by using six conventional treatment procedure.</p>
+            </div>
+            <div class="bg-green-300 h-[300px] w-[200px] rounded-lg ">
+                <img class="w-[100px] ml-12 mb-2 mt-6" src="https://5.imimg.com/data5/QS/KD/GLADMIN-9019253/ayurvedic-massage.jpg" alt="">
+                <p class="text-orange-700 font-bold text-xl pl-2 mb-4">Ayurvedic Massage</p>
+                <p class="pl-2 pr-2">Vivek of Ayush provides healthcare facility across the country by using six conventional treatment procedure.</p>
+            </div>
+            <div class="bg-green-300 h-[300px] w-[200px] rounded-lg ">
+                <img class="w-[100px] ml-12 mb-2 mt-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg5W0ndwgTRrOU_v9IWdU2DbrQK33y_NCcUA&s" alt="">
+                <p class="text-orange-700 font-bold text-xl pl-2 mb-4">Quality & Standard</p>
+                <p class="pl-2 pr-2">Vivek of Ayush provides healthcare facility across the country by using six conventional treatment procedure.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--Our item section end .. -->
+    
+    <!--Our product section here many.. -->
+    <div class="h-auto w-100 flex flex-wrap flex-col p-10 items-center">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-green-400 font-bold text-xl md:text-4xl text-center mb-10"><span class="text-orange-400 border-b-4 border-orange-500 ">Vivek Ayurveda </span>Products here..</p>
+            <div class="w-40 h-1 bg-zinc-300 rounded-lg"></div>
+        </div>
+        <div class=" h-auto flex flex-wrap justify-around mt-8">
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg5W0ndwgTRrOU_v9IWdU2DbrQK33y_NCcUA&s" alt="">
+            <p class="text-orange-600 font-bold">Learn Ayurveda</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="http://static.oxinis.com/healthmug/image/blog/article/19-10.jpg" alt="">
+            <p class="text-orange-600 font-bold">Coriander (Dhania)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="http://static.oxinis.com/healthmug/image/blog/article/19-12.jpg" alt="">
+            <p class="text-orange-600 font-bold">Cumin (Jeera or Zeera)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="http://static.oxinis.com/healthmug/image/blog/article/19-13.jpg" alt="">
+            <p class="text-orange-600 font-bold">Fennel Seeds (Saunf)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://static.oxinis.com/healthmug/image/blog/article/19-7.jpg" alt="">
+            <p class="text-orange-600 font-bold">Neem</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://static.oxinis.com/healthmug/image/blog/article/19-6.jpg" alt="">
+            <p class="text-orange-600 font-bold">Amla (Indian Gooseberry)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://static.oxinis.com/healthmug/image/blog/article/19-5.jpg" alt="">
+            <p class="text-orange-600 font-bold">Aloe Vera (Ghritkumari)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://static.oxinis.com/healthmug/image/blog/article/19-4.jpg" alt="">
+            <p class="text-orange-600 font-bold">Basil (Tulsi)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://static.oxinis.com/healthmug/image/blog/article/19-1.jpg" alt="">
+            <p class="text-orange-600 font-bold">Learn Ayurveda</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos,Lorem ipsum dolor,Quam quo veniam Dignissimos Lorem ipsum dolor,Quam quo veniam Dignissimos explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-6 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://static.oxinis.com/healthmug/image/blog/article/19-banner-700.jpg" alt="">
+            <p class="text-orange-600 font-bold">Turmeric (Haldi)</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, Lorem ipsum dolor,Quam quo veniam Dignissimos Lorem ipsum dolor,Quam quo veniam Dignissimosexplicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center  border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://images.livemint.com/img/2022/05/08/600x338/AJNH1I2U_1607526728718_1607526733019_1652004533234.jpg" alt="">
+            <p class="text-orange-600 font-bold">Crazy Health Benefits</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos,Lorem ipsum dolor,Quam quo veniam Dignissimos Lorem ipsum dolor,Quam quo veniam Dignissimos explicabo voluptates.</p>
+           </div>
+           <div class="text-white w-64 flex flex-col items-center mb-2 border-2 border-green-400 p-2 rounded-2xl">
+            <img class=" w-[250px] rounded-full" src="https://iimtu.edu.in/blog/wp-content/uploads/2023/05/B.A.M.jpg" alt="">
+            <p class="text-orange-600 font-bold">Learn Ayurveda</p>
+            <p>Lorem ipsum dolor,Quam quo veniam Dignissimos, explicabo voluptates.</p>
+           </div>
+        </div>
+    </div>
+    <!--Our product section end here many.. -->
+
+    <!--Our footer section here-->
+
+    <footer class="w-full bg-slate-50 px-4 text-white pt-8  flex flex-col md:flex-row flex-wrap justify-between md:px-12">
+        <div>
+            <img class="my-7 h-20 rounded-2xl" src="https://liberomagazine.com/wp-content/uploads/2022/05/Why-I-Need-to-Meditate-Daily.png" alt="">
+            <p class="text-orange-800 font-bold w-[200px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, minus.</p>
+            <img class="h-32 rounded-3xl" src="https://assets-global.website-files.com/5f16d0d9bc7e8e5a330bcced/5f5b7ae39bd6987945d422bd_Ayush%20Premium%20(1).png" alt="">
+        </div>
+        <div class="text-orange-800">
+            <h2 class="font-bold mt-10 text-xl text-">Vivek Learn</h2>
+            <div class="w-32 h-1 bg-green-800 rounded-lg"></div>
+            <div>
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+            </div>
+        </div>
+        <div class="text-orange-800">
+            <h2 class="font-bold mt-10 text-xl text-">Vivek Cooking</h2>
+            <div class="w-32 h-1 bg-green-800 rounded-lg"></div>
+            <div>
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+                 <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+            </div>
+        </div>
+        <div class="text-orange-800">
+            <h2 class="font-bold mt-10 text-xl text-">Vivek Meditation</h2>
+            <div class="w-32 h-1 bg-green-800 rounded-lg m-3"></div>
+            <div>
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privecy policy</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
